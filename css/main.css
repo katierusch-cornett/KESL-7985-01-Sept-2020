@@ -546,7 +546,7 @@ body.visible{
 /*--- HEADER STYLING ---*/
 
 header {
-    background: url(/assets/september-sale-header-m.jpg) top center no-repeat;
+    background: url(assets/september-sale-header-m.jpg) top center no-repeat;
     background-size: cover;
     background-color: #000;
     height: 100vh;
@@ -655,62 +655,62 @@ p.a::before {
 /*--- IMAGE BG SECTIONS ---*/
 
 #dynamic {
-    background: url(/assets/dynamic-bg-m.jpg) bottom left no-repeat;
+    background: url(assets/dynamic-bg-m.jpg) bottom left no-repeat;
     background-size: cover;
     background-color: #000;
 }
 
 #quote2 {
-    background: url(/assets/quote2-bg-m.jpg) center center no-repeat;
+    background: url(assets/quote2-bg-m.jpg) center center no-repeat;
     background-size: cover;
     background-color: #fff;
 }
 
 #lucrative {
-    background: url(/assets/lucrative-bg-m.jpg) center center no-repeat;
+    background: url(assets/lucrative-bg-m.jpg) center center no-repeat;
     background-size: cover;
     background-color: #000;
 }
 
 #quote {
-    background: url(/assets/quote-bg-m.jpg) center center no-repeat;
+    background: url(assets/quote-bg-m.jpg) center center no-repeat;
     background-size: cover;
     background-color: #000;
 }
 
 #accomplished {
-    background: url(/assets/accomplished-bg-m.jpg) center center no-repeat;
+    background: url(assets/accomplished-bg-m.jpg) center center no-repeat;
     background-size: cover;
     background-color: #000;
 }
 
 @media (min-width: 768px) {
     #dynamic {
-        background: url(/assets/dynamic-bg.jpg) bottom left no-repeat;
+        background: url(assets/dynamic-bg.jpg) bottom left no-repeat;
         background-size: cover;
         background-color: #000;
     }
     
     #quote2 {
-        background: url(/assets/quote2-bg.jpg) center center no-repeat;
+        background: url(assets/quote2-bg.jpg) center center no-repeat;
         background-size: cover;
         background-color: #fff;
     }
     
     #lucrative {
-        background: url(/assets/lucrative-bg.jpg) center center no-repeat;
+        background: url(assets/lucrative-bg.jpg) center center no-repeat;
         background-size: cover;
         background-color: #000;
     }
     
     #quote {
-        background: url(/assets/quote-bg.jpg) center center no-repeat;
+        background: url(assets/quote-bg.jpg) center center no-repeat;
         background-size: cover;
         background-color: #000;
     }
     
     #accomplished {
-        background: url(/assets/accomplished-bg.jpg) center center no-repeat;
+        background: url(assets/accomplished-bg.jpg) center center no-repeat;
         background-size: cover;
         background-color: #000;
     }
@@ -805,8 +805,9 @@ header#secondary{
 @media only screen and (min-width: 768px) {
    
     header {
-        background: url(/assets/september-sale-header.jpg) top right no-repeat;
+        background: url(assets/september-sale-header.jpg) top right no-repeat;
         background-size: cover;
+         background-color: #000;
     }
 
     #intro h1,  h1.section-header{
