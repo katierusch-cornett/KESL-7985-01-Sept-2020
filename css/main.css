@@ -374,10 +374,17 @@ p{
 .inline {display: inline-block;}
 
 .border {border-bottom: 1px solid white; padding-bottom: 1rem; max-width: 57em; margin: auto; padding-left:0; }
+.border-black {border-bottom: 1px solid #000; padding-bottom: 1rem; max-width: 57em; margin: auto; margin-bottom: 1em;}
+.border-black.last {border-bottom: 0;}
+@media (min-width: 768px) {
+    .column-last {
+        border-bottom: 0;
+    }
+}
 @media (min-width: 768px) {
     .border {padding-left: 4em;}
 }
-.border.last {border-bottom: 0;}
+
 
 .stat-list {max-width:61em; margin: auto;}
 
